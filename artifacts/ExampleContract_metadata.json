@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "key1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "key2",
+						"type": "uint256"
+					}
+				],
+				"name": "getNestedMap",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "nestedMap",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "key1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "key2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "finalValue",
+						"type": "uint256"
+					}
+				],
+				"name": "setNestedMap",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MyContract.sol": "ExampleContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MyContract.sol": {
+			"keccak256": "0x08be024cc363636772ecddb23b88dfdbca50b2535ec36535d3e287f69e1af4e7",
+			"urls": [
+				"bzz-raw://4b85ea13f8d2a4ae5d6ee2299c2a76939df039b0b925faf5c38058f15419b548",
+				"dweb:/ipfs/Qme8MTQF6NDiffyGwPBnoULwwnDiQHy1f5h7wLtyuSLFzy"
+			]
+		}
+	},
+	"version": 1
+}
